@@ -7,7 +7,7 @@ const app = express();
 
 const fileUpload=require('express-fileupload');
 
-mongoose.connect('');
+mongoose.connect('your api');
 
 mongoose.connection.on('error', err => {
     console.log('connection fail');
